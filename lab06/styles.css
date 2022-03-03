@@ -1,5 +1,4 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-p, h1, h2 {color:navy}
+body, p, h1, h2, h3 {font-family: Arial, Helvetica, sans-serif; color:navy;}
 
 .special {color:blueviolet}
 
