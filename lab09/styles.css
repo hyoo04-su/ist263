@@ -1,0 +1,60 @@
+body {background-color: #BDBDD7;}
+body {color:#160040;}
+
+.quote {float: right; margin-right: 10px;}
+.clear {clear: both;}
+
+a {color: #00454A;}
+a:hover {color: #4C0070;}
+a:visited {color:#3F0071;}
+
+h1, h2, h3 {color: #7045AF;}
+
+nav {background-color: #4ECCA3;}
+nav a{color:#404B69;}
+nav a:hover{background-color: #278EA5;}
+nav {
+    border: 10px;
+    padding: 10px;
+    margin-bottom: 30px;}
+
+.row1, .row2 {display: flex;}
+.row2 article {padding: 20px;}
+
+.row1, .row2 {margin: 15px;}
+
+.row1 {background-color: #FFFFFF; border-radius: 25px;
+padding: 20px;}
+
+.row2 {background-color: #FFFFFF; border-radius: 25px; padding: 30px;}
+.form {float: right; margin-left: 25px;}
+
+.logopic {float: left; margin-right: 10px;}
+.row1 p {float: right; margin-left: 10px; margin-bottom: 10px;}
+
+.techheader {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.skillsabout {text-align: center;
+padding-top: 10px;}
+
+.rpic {width:45px;}
+.python {width:45px;}
+.microsoft {width:45px;}
+.tableau {width:45px;}
+.premierepro {width:45px;}
+
+.flexbox2{display:flex;
+    padding: 10px;}
+
+.icons{display: flex;
+justify-content: space-between;
+flex:3;}
+
+.sidebar, h2{background-color:#4ECCA3;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+flex:1;}
