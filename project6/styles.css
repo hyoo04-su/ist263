@@ -1,6 +1,8 @@
 body {background-color: #FFDBDA;
     font-family: 'Poppins', sans-serif;}
-nav{font-family: 'Ms Madi', cursive;}
-h1, h2{font-family:'Ms Madi', cursive;}
+nav {font-family: 'Ms Madi', cursive;}
+h1 {font-family:'Ms Madi', cursive;}
+h2{font-family: 'Poppins', sans-serif;
+font-style:italic;}
 
 
