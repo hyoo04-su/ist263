@@ -3,6 +3,6 @@ body {background-color: #FFDBDA;
 nav {font-family: 'Ms Madi', cursive;}
 h1 {font-family:'Ms Madi', cursive;}
 h2{font-family: 'Poppins', sans-serif;
-font-style:italic;}
+    font-style: italic;}
 
-
+.content, .content2 {display: flex; border: 2px;}
