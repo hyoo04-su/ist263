@@ -5,4 +5,10 @@ h1 {font-family:'Ms Madi', cursive;}
 h2{font-family: 'Poppins', sans-serif;
     font-style: italic;}
 
-.content, .content2 {display: flex; border: 2px; padding: 2px;}
+.content, .content2 {
+    display: flex; 
+    border: 2px; 
+    padding: 2px;
+    width:45px;}
+
+.pics {width: 20px;}
