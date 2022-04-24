@@ -8,19 +8,20 @@ nav {font-family: 'Poppins', sans-serif;
     justify-content: space-between;
     padding: 8px;}
 
-header{font-family: 'Ms Madi', cursive;
+header{font-family: 'Berkshire Swash', cursive;
     font-size: 45px;
     background-color: #9DA3A4;
     display: flex;
     justify-content: space-between;
-    padding: 8px;}
+    padding: 8px;
+    color: #604D53;}
 
 nav a{color:#604D53;}
 
 h1 {font-family:'Ms Madi', cursive;}
 h2{font-family: 'Poppins', sans-serif;
     font-style: italic;}
-    
+
 .content, .content2 {
     display: flex; 
     border: 2px; 
