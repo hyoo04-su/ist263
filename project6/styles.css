@@ -6,13 +6,12 @@ nav {font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 8px;}
-header{font-family:  'Ms Madi', cursive;
+header{font-family: 'Ms Madi', cursive;
     font-size: 45px;
     background-color: #9DA3A4;
     display: flex;
     justify-content: space-between;
-    padding: 8px;
-    width: 45px;}
+    padding: 8px;}
 nav a{color:#604D53;}
 h1 {font-family:'Ms Madi', cursive;}
 h2{font-family: 'Poppins', sans-serif;
