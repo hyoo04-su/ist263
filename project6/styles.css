@@ -3,6 +3,7 @@ body {background-color: #FFDBDA;
 nav, header {font-family: 'Ms Madi', cursive;
     justify-content: space-around;
     font-size: 30px;}
+nav a{color:#604D53;}
 h1 {font-family:'Ms Madi', cursive;}
 h2{font-family: 'Poppins', sans-serif;
     font-style: italic;}
@@ -11,4 +12,6 @@ h2{font-family: 'Poppins', sans-serif;
     display: flex; 
     border: 2px; 
     padding: 2px;}
+
+
 
