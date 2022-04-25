@@ -39,6 +39,7 @@ h2{font-family: 'Poppins', sans-serif;
     nav a{size: 100%; 
         display: block; 
         padding: 15px;}
+    nav span{display: none;}
     .content, .content2{
         display: block;
         flex: 1;}
