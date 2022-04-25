@@ -33,14 +33,15 @@ h2{font-family: 'Poppins', sans-serif;
     text-align: center;}
 
 @media only screen and (max-width: 600px){
-    nav {font-size: 25px;}
+    nav {font-size: 25px;
+        display: block;
+        text-align: center;}
     nav a{size: 100%; 
-        display: flex;
-        flex-wrap:wrap; 
+        display: block; 
         padding: 15px;}
     .content, .content2{
-        display: flex;
-        flex: auto;}
+        display: block;
+        flex: 1;}
     }
 
 
