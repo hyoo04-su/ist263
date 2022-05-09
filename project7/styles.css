@@ -1,0 +1,74 @@
+body {background-color: #FFDBDA;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;}
+
+.timelinetext1, .timelinetext2 {text-align: center;}
+
+.tarakogroup {display: flex;
+    float: left;
+    padding: 20px;
+    justify-content: space-between;}
+
+.rebrandtext {display: flex;
+    padding: 15px;
+    justify-content: space-between;}
+
+.rebrandlist {display: flex;
+    padding: 5px;
+    justify-content: space-between;}
+
+.mytarako, .mayo {
+    justify-content: space-evenly;}
+
+.homegroup {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+
+.tiktokcaption {text-align: center;}
+
+nav {font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    background-color: #9DA3A4;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;}
+
+header{font-family: 'Berkshire Swash', cursive;
+    font-size: 45px;
+    background-color: #9DA3A4;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    color: #604D53;}
+
+nav a{color:#604D53;}
+
+h1 {font-family:'Ms Madi', cursive;}
+h2{font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    text-align: center;}
+
+.content, .content2, .content3, .content4 {
+    display: flex; 
+    border: 5px; 
+    padding: 2px;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;}
+
+@media only screen and (max-width: 600px){
+    nav {font-size: 25px;
+        display: block;
+        text-align: center;}
+    nav a{size: 100%; 
+        display: block; 
+        padding: 15px;}
+    nav span{display: none;}
+    .content, .content2{
+        display: block;
+        flex: 1;}
+    }
+
+
+
