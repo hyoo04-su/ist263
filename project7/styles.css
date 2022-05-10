@@ -49,7 +49,7 @@ h2{font-family: 'Poppins', sans-serif;
     font-style: italic;
     text-align: center;}
 
-.content, .content2, .content3, .content4 {
+.content, .content2, .content3, .content4, .homecontent{
     display: flex; 
     border: 5px; 
     padding: 2px;
@@ -57,6 +57,13 @@ h2{font-family: 'Poppins', sans-serif;
     justify-content: space-evenly;
     text-align: center;}
 
+.homecontent {
+    display: block;
+    border: 5px;
+    padding: 2px;
+    justify-content: space-evenly;
+}
+  
 @media only screen and (max-width: 600px){
     nav {font-size: 25px;
         display: block;
