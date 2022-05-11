@@ -77,14 +77,30 @@ h2{font-family: 'Poppins', sans-serif;
     nav a{size: 100%; 
         display: block; 
         padding: 15px;}
-        
+
     nav span{display: none;}
 
     .content, .content2, .content3, .content4, .homecontent {
+        padding: 0;
         display: block;
-        flex: 1;
-        width: auto;
-        height: auto;}
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%}
+
+    .mytarako, .mayo, .illo1, .illo2, .illo3, .homegroup, .homegroupfinal {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%
+    }
+
+    .tarakogroup {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%}
 
     .hometext, .homelist, .hometext2, .timelinetext1, .timelinetext2, .rebrandtext, .rebrandlist {display: block;
         flex: 1;
