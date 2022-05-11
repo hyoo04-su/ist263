@@ -25,6 +25,8 @@ body {background-color: #FFDBDA;
     margin-right: auto;
     width: 50%;}
 
+.slideshowpics {text-align: center;}
+
 .tiktokcaption {text-align: center;}
 
 nav {font-family: 'Poppins', sans-serif;
@@ -33,6 +35,9 @@ nav {font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 8px;}
+
+.icon {margin-left: auto;
+    display: block;}
 
 header{font-family: 'Berkshire Swash', cursive;
     font-size: 45px;
