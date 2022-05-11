@@ -4,9 +4,9 @@ body {background-color: #FFDBDA;
 
 .timelinetext1, .timelinetext2 {text-align: center;}
 
-.tarakogroup {display: flex;
+.rebrand1 {display: flex;
     float: left;
-    padding: 20px;
+    padding: 25px;
     justify-content: space-between;}
 
 .roseinfo {display: flex;
@@ -22,7 +22,7 @@ body {background-color: #FFDBDA;
 
 .rebrandtext{display: flex;
     float: right;
-    padding: 15px;
+    padding: 20px;
     justify-content: space-between;}
 
 .rebrandlist {display: flex;
