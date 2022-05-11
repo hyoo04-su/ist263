@@ -36,8 +36,8 @@ nav {font-family: 'Poppins', sans-serif;
     justify-content: space-between;
     padding: 8px;}
 
-.icon {margin-left: auto;
-    display: block;}
+.icon {display: block;
+    float: right;}
 
 header{font-family: 'Berkshire Swash', cursive;
     font-size: 45px;
@@ -80,8 +80,8 @@ h2{font-family: 'Poppins', sans-serif;
     .content, .content2, .content3, .content4, .homecontent{
         display: block;
         flex: 1;}
-    .icon {width: 100%;
-        height: 100%;}
+    .icon {width: 75%;
+        height: 75%;}
     }
 
 
