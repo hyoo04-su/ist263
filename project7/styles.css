@@ -73,10 +73,13 @@ h2{font-family: 'Poppins', sans-serif;
     nav {font-size: 25px;
         display: block;
         text-align: center;}
+
     nav a{size: 100%; 
         display: block; 
         padding: 15px;}
+        
     nav span{display: none;}
+
     .content, .content2, .content3, .content4, .homecontent {
         display: block;
         flex: 1;
