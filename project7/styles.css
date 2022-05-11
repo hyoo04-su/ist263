@@ -78,7 +78,7 @@ h2{font-family: 'Poppins', sans-serif;
 
     nav span{display: none;}
 
-    .content, .content2, .content3, .content4, .homecontent {
+    .content, .content2, .content3, .content4, .homecontent, .homegroup, .slideshowpics {
         padding: 0;
         display: block;
         margin: 0 auto;
