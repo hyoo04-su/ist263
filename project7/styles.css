@@ -85,14 +85,14 @@ h2{font-family: 'Poppins', sans-serif;
 
     nav span{display: none;}
 
-    .content, .content2, .content3, .content4, .homecontent, .homegroup, .slideshowpics {
+    .content, .content2, .content3, .content4, .homecontent, .homegroup, .slideshowpics, .rebrand1 {
         padding: 0;
         display: block;
         margin: 0 auto;
         max-height: 100%;
         max-width: 100%}
 
-    .mytarako, .mayo, .illo1, .illo2, .illo3, .homegroup, .rose {
+    .mytarako, .mayo, .illo1, .illo2, .illo3, .homegroup, .rose, .rebrandgroup {
         padding: 0;
         display: block;
         margin: 0 auto;
