@@ -77,11 +77,19 @@ h2{font-family: 'Poppins', sans-serif;
         display: block; 
         padding: 15px;}
     nav span{display: none;}
-    .content, .content2, .content3, .content4, .homecontent{
+    .content, .content2, .content3, .content4, .homecontent {
         display: block;
-        flex: 1;}
-    .icon {width: 75%;
-        height: 75%;}
+        flex: 1;
+        width: auto;
+        height: auto;}
+
+    .hometext, .homelist, .hometext2, .timelinetext1, .timelinetext2, .rebrandtext, .rebrandlist {display: block;
+        flex: 1;
+        width: auto;
+        height: auto;}
+
+    .icon {width: auto;
+        height: auto;}
     }
 
 
