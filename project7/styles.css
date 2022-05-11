@@ -68,7 +68,7 @@ h2{font-family: 'Poppins', sans-serif;
     padding: 2px;
     justify-content: space-evenly;
 }
-  
+
 @media only screen and (max-width: 600px){
     nav {font-size: 25px;
         display: block;
