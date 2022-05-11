@@ -20,6 +20,8 @@ body {background-color: #FFDBDA;
     padding: 20px;
     justify-content: space-between;}
 
+table, td, th {border: 1px solid black;}
+
 .rebrandtext{display: flex;
     float: right;
     padding: 20px;
