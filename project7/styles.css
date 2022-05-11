@@ -135,7 +135,7 @@ h2{font-family: 'Poppins', sans-serif;
         width: 150px;
         float:none;}
 
-    .hometext, .homelist, .rosetext, .timelinetext1, .timelinetext2, .rebrandtext, .rebrandlist {display: block;
+    .hometext, .homelist, .rosetext, .timelinetext1, .timelinetext2, .rebrandtext, .rebrandlist, .content {display: block;
         flex: 1;
         width: auto;
         height: auto;}
