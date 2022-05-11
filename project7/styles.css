@@ -10,15 +10,16 @@ body {background-color: #FFDBDA;
     justify-content: space-between;}
 
 .roseinfo {display: flex;
-    justify-content: space-around}
+    align-items: center;
+    justify-content: center;}
 
-.rose {display: flex;
-    padding: 40px;}
+.rose {padding: 25px;
+    flex-basis: 40%;}
 
-.rosetext {display: flex;
-    float: right;
+.rosetext {
     padding: 20px;
-    justify-content: space-between;}
+    margin: 2px;
+    font-size: 19px;}
 
 table, td, th {border: 1px solid black;}
 
@@ -43,6 +44,8 @@ table, td, th {border: 1px solid black;}
 
 .tiktokcaption {text-align: center;}
 
+.hometiktok {text-align: center;}
+
 nav {font-family: 'Poppins', sans-serif;
     font-size: 25px;
     background-color: #9DA3A4;
@@ -52,6 +55,22 @@ nav {font-family: 'Poppins', sans-serif;
 
 .icon {display: block;
     float: right;}
+
+.icon {
+    display: block;
+    float: right;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;}
+    @keyframes blink-animation {
+    to {
+        visibility: hidden;
+        }
+      }
+    @-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+        }
+      }
 
 header{font-family: 'Berkshire Swash', cursive;
     font-size: 45px;
