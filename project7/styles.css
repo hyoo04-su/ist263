@@ -9,7 +9,19 @@ body {background-color: #FFDBDA;
     padding: 20px;
     justify-content: space-between;}
 
-.rebrandtext {display: flex;
+.roseinfo {display: flex;
+    justify-content: space-around}
+
+.rose {display: flex;
+    padding: 40px;}
+
+.rosetext {display: flex;
+    float: right;
+    padding: 20px;
+    justify-content: space-between;}
+
+.rebrandtext{display: flex;
+    float: right;
     padding: 15px;
     justify-content: space-between;}
 
@@ -54,18 +66,13 @@ h2{font-family: 'Poppins', sans-serif;
     font-style: italic;
     text-align: center;}
 
-.content, .content2, .content3, .content4, .homecontent{
+.content, .content2, .content3, .content4, .homecontent {
     display: flex; 
     border: 5px; 
     padding: 2px;
     width: 100%;
     justify-content: space-evenly;
     text-align: center;}
-
-.homecontent, .illo1, .illo2, .illo3, .homegroupfinal {
-    display: flex;
-    justify-content: space-between;
-}
 
 @media only screen and (max-width: 600px){
     nav {font-size: 25px;
@@ -85,7 +92,7 @@ h2{font-family: 'Poppins', sans-serif;
         max-height: 100%;
         max-width: 100%}
 
-    .mytarako, .mayo, .illo1, .illo2, .illo3, .homegroup, .homegroupfinal {
+    .mytarako, .mayo, .illo1, .illo2, .illo3, .homegroup, .rose {
         padding: 0;
         display: block;
         margin: 0 auto;
@@ -107,11 +114,8 @@ h2{font-family: 'Poppins', sans-serif;
         width: 150px;
         float:none;}
 
-    .hometext, .homelist, .hometext2, .timelinetext1, .timelinetext2, .rebrandtext, .rebrandlist {display: block;
+    .hometext, .homelist, .rosetext, .timelinetext1, .timelinetext2, .rebrandtext, .rebrandlist {display: block;
         flex: 1;
         width: auto;
         height: auto;}
     }
-
-
-

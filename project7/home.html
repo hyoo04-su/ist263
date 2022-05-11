@@ -15,6 +15,20 @@
             document.getElementById("slideshow1").setAttribute('src',"https://hyoo04-su.github.io/ist263/project7/images/group1.jpg");
 
         }
+
+        function ClickOff () {
+            document.getElementById("clickpic").setAttribute('src', "https://hyoo04-su.github.io/ist263/project7/images/illo3.jpg");
+        }
+
+        function ClickOn () {
+            document.getElementById("clickpic").setAttribute('src', "https://hyoo04-su.github.io/ist263/project7/images/greetingsillo.jpg");
+        
+        }
+
+        function ClickAgain () {
+            if (document.getElementById("clickpic").onclick="ClickOn();");
+            else {document.getElementById("clickpic").setAttribute('src', "https://hyoo04-su.github.io/ist263/project7/images/illo4.jpeg")}
+        }
     </script>
 
     <link rel="stylesheet" href="../project7/styles.css">
@@ -56,37 +70,27 @@
             <li>Postcards</li>
             <li>Greeting cards</li> 
             <li>Tea sets </li>
-            <li>And other paraphernalia</li> 
+            <li>And other paraphernalia.</li> 
     
         </ul>
-        of the Kewpie character that people today can collect and enjoy.<br>
 
-        Because of this, the Kewpie character and branding has been well recognized throughout the world.
-        <br>
-        <p class="hometext2">
-        Rose O’Neill was also an avid woman’s suffrage activist and she illustrated Kewpie dolls fighting for the Nineteenth Amendment to the Constitution, offering an unexpected side of Kewpies advocating for modern change. And during the production of Kewpie dolls, O’Neill fought for the dolls to be affordable for all children no matter their economic status. As the highest paid female illustrator in the U.S., O’Neill continued to fight for feminist politics and activism until her retirement and death. Coupled with the societal impact of Rose O’Neill’s unprecedented activism and affinity for social change through adorable figures such as Kewpie dolls, the Kewpie doll branding brings about many different connotations for collectors and new fans worldwide.
-    </p>
+        <div class="roseinfo">
+        <div>
+            <img class="rose" src="images/roseoneill.jpg" alt="Rose O'Neill">
+        </div>
 
+        <div class="rosetext">
+        <div>
+        <p>
+        Rose O’Neill was also an avid woman’s suffrage activist and she illustrated Kewpie dolls fighting for the Nineteenth Amendment to the Constitution, offering an unexpected side of Kewpies advocating for modern change.<br><br> And during the production of Kewpie dolls, O’Neill fought for the dolls to be affordable for all children no matter their economic status. As the highest paid female illustrator in the U.S., O’Neill continued to fight for feminist politics and activism until her retirement and death.<br><br>Coupled with the societal impact of Rose O’Neill’s unprecedented activism and affinity for social change through adorable figures such as Kewpie dolls, the Kewpie doll branding brings about many different connotations for collectors and new fans worldwide.</p>
+        </div>
+        </div>
+</div>
     <div class="homecontent">
         <div>
             <figure>
-            <img class="illo1" src="images/illo2.jpg" alt="Illustration of Kewpie on sparrow">
-            </figure>
-        </div>
-        <div>
-            <figure>
-            <img class="illo2" src="images/greetingsillo.jpg" alt="Greetings illustration of Kewpie">
-            </figure>
-        </div>
-        <div>
-            <figure>
-            <img class="illo3" src="images/illo3.jpg" alt="Votes for Women Kewpie Illustration">
-            </figure>
-        </div>
-        <div>
-            <figure>
-            <img class="homegroupfinal" src="images/kewpie2.jpg" alt="Group of Kewpie dolls">
-            </figure>
+            <img src="images/illo3.jpg" alt="Votes for Women Kewpie Illustration" id="clickpic" onclick="ClickOff(); ClickOn();">
+            </figure><figcaption>Click for more Kewpie illustrations!</figcaption>
         </div>
     </div>
 
